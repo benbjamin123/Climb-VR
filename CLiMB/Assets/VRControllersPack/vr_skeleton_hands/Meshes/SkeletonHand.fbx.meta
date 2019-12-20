@@ -1,0 +1,1409 @@
+fileFormatVersion: 2
+guid: 0441c02c30c37448284080cc9b174c45
+timeCreated: 1500898016
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: f_index.01.L
+    100002: f_index.02.L
+    100004: f_index.03.L
+    100006: f_index.03.L_end
+    100008: f_middle.01.L
+    100010: f_middle.02.L
+    100012: f_middle.03.L
+    100014: f_middle.03.L_end
+    100016: f_pinky.01.L
+    100018: f_pinky.02.L
+    100020: f_pinky.03.L
+    100022: f_pinky.03.L_end
+    100024: f_ring.01.L
+    100026: f_ring.02.L
+    100028: f_ring.03.L
+    100030: f_ring.03.L_end
+    100032: hand
+    100034: hand.L
+    100036: palm.01.L
+    100038: palm.02.L
+    100040: palm.03.L
+    100042: palm.04.L
+    100044: rig
+    100046: //RootNode
+    100048: thumb.01.L
+    100050: thumb.02.L
+    100052: thumb.03.L
+    100054: thumb.03.L_end
+    400000: f_index.01.L
+    400002: f_index.02.L
+    400004: f_index.03.L
+    400006: f_index.03.L_end
+    400008: f_middle.01.L
+    400010: f_middle.02.L
+    400012: f_middle.03.L
+    400014: f_middle.03.L_end
+    400016: f_pinky.01.L
+    400018: f_pinky.02.L
+    400020: f_pinky.03.L
+    400022: f_pinky.03.L_end
+    400024: f_ring.01.L
+    400026: f_ring.02.L
+    400028: f_ring.03.L
+    400030: f_ring.03.L_end
+    400032: hand
+    400034: hand.L
+    400036: palm.01.L
+    400038: palm.02.L
+    400040: palm.03.L
+    400042: palm.04.L
+    400044: rig
+    400046: //RootNode
+    400048: thumb.01.L
+    400050: thumb.02.L
+    400052: thumb.03.L
+    400054: thumb.03.L_end
+    4300000: hand
+    7400000: AllAnim
+    7400002: idle
+    7400004: fist
+    7400006: finger1
+    7400008: finger2
+    7400010: finger3
+    7400012: finger4
+    7400014: finger5
+    7400016: like
+    7400018: rock
+    7400020: shaka
+    7400022: grab
+    7400024: grab_pistol
+    7400026: pistol_shoot
+    7400028: spok
+    9500000: //RootNode
+    13700000: hand
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: AllAnim
+      takeName: rig|metarigAction
+      firstFrame: 0
+      lastFrame: 139
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/hand.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L/f_index.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L/f_middle.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L/f_ring.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.04.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L/f_pinky.03.L_end
+        weight: 1
+      - path: rig/hand.L/thumb.01.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: rig|metarigAction
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/hand.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L/f_index.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L/f_middle.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L/f_ring.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.04.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L/f_pinky.03.L_end
+        weight: 1
+      - path: rig/hand.L/thumb.01.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fist
+      takeName: rig|metarigAction
+      firstFrame: 9
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/hand.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L/f_index.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L/f_middle.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L/f_ring.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.04.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L/f_pinky.03.L_end
+        weight: 1
+      - path: rig/hand.L/thumb.01.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: finger1
+      takeName: rig|metarigAction
+      firstFrame: 19
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/hand.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L/f_index.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L/f_middle.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L/f_ring.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.04.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L/f_pinky.03.L_end
+        weight: 1
+      - path: rig/hand.L/thumb.01.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: finger2
+      takeName: rig|metarigAction
+      firstFrame: 29
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/hand.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L/f_index.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L/f_middle.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L/f_ring.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.04.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L/f_pinky.03.L_end
+        weight: 1
+      - path: rig/hand.L/thumb.01.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: finger3
+      takeName: rig|metarigAction
+      firstFrame: 39
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/hand.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L/f_index.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L/f_middle.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L/f_ring.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.04.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L/f_pinky.03.L_end
+        weight: 1
+      - path: rig/hand.L/thumb.01.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: finger4
+      takeName: rig|metarigAction
+      firstFrame: 49
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/hand.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L/f_index.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L/f_middle.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L/f_ring.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.04.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L/f_pinky.03.L_end
+        weight: 1
+      - path: rig/hand.L/thumb.01.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: finger5
+      takeName: rig|metarigAction
+      firstFrame: 59
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/hand.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L/f_index.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L/f_middle.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L/f_ring.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.04.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L/f_pinky.03.L_end
+        weight: 1
+      - path: rig/hand.L/thumb.01.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: like
+      takeName: rig|metarigAction
+      firstFrame: 69
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/hand.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L/f_index.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L/f_middle.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L/f_ring.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.04.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L/f_pinky.03.L_end
+        weight: 1
+      - path: rig/hand.L/thumb.01.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rock
+      takeName: rig|metarigAction
+      firstFrame: 79
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/hand.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L/f_index.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L/f_middle.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L/f_ring.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.04.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L/f_pinky.03.L_end
+        weight: 1
+      - path: rig/hand.L/thumb.01.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: shaka
+      takeName: rig|metarigAction
+      firstFrame: 89
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/hand.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L/f_index.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L/f_middle.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L/f_ring.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.04.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L/f_pinky.03.L_end
+        weight: 1
+      - path: rig/hand.L/thumb.01.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: grab
+      takeName: rig|metarigAction
+      firstFrame: 99
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/hand.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L/f_index.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L/f_middle.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L/f_ring.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.04.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L/f_pinky.03.L_end
+        weight: 1
+      - path: rig/hand.L/thumb.01.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: grab_pistol
+      takeName: rig|metarigAction
+      firstFrame: 129
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/hand.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L/f_index.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L/f_middle.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L/f_ring.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.04.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L/f_pinky.03.L_end
+        weight: 1
+      - path: rig/hand.L/thumb.01.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pistol_shoot
+      takeName: rig|metarigAction
+      firstFrame: 120
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/hand.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L/f_index.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L/f_middle.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L/f_ring.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.04.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L/f_pinky.03.L_end
+        weight: 1
+      - path: rig/hand.L/thumb.01.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: spok
+      takeName: rig|metarigAction
+      firstFrame: 138
+      lastFrame: 139
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/hand.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L
+        weight: 1
+      - path: rig/hand.L/palm.01.L/f_index.01.L/f_index.02.L/f_index.03.L/f_index.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L
+        weight: 1
+      - path: rig/hand.L/palm.02.L/f_middle.01.L/f_middle.02.L/f_middle.03.L/f_middle.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L
+        weight: 1
+      - path: rig/hand.L/palm.03.L/f_ring.01.L/f_ring.02.L/f_ring.03.L/f_ring.03.L_end
+        weight: 1
+      - path: rig/hand.L/palm.04.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L
+        weight: 1
+      - path: rig/hand.L/palm.04.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L/f_pinky.03.L_end
+        weight: 1
+      - path: rig/hand.L/thumb.01.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: rig/hand.L/thumb.01.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
